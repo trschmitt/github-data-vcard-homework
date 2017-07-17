@@ -30,10 +30,12 @@ function businessCard() {
       <div>
         <p>${data.bio}</p>
       </div>
-      <div id="picture">
-        <img src=${data.avatar_url} alt="pro_picture">
-      </div>
-    </section>
+      </section>
+      <section>
+        <div id="picture">
+          <img src=${data.avatar_url} alt="pro_picture">
+        </div>
+      </section>
   </div>
   `
   container.innerHTML = template;
